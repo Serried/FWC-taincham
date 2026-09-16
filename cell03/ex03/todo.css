@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+#new {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.todo {
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: lightblue;
+    cursor: pointer;
+}

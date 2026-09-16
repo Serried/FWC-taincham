@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.image {
+    min-height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background-image: url("https://picsum.photos/id/1015/1920/1080");
+}
+
+.second {
+    background-image: url("https://picsum.photos/id/1018/1920/1080");
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 30px;
+    font-size: 24px;
+}
+
+.black-section {
+    background-color: black;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 24px;
+}

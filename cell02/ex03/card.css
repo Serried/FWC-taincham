@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.card {
+    margin: auto;
+    border-collapse: collapse;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card td {
+    border: none;
+    padding: 10px;
+}
+
+.profile {
+    width: 100%;
+    display: block;
+}
+
+.card h2 {
+    margin: 5px;
+}
+
+.card p {
+    color: gray;
+}
+
+.socials a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
